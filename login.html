@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Account.css">
+
+</head>
+<body>
+    <form class="form" id="formlogin">
+        <h1>Log in</h1>
+        <label class = "label" for="name">Username:</label><br>
+        <input type="text" class = "input" name="name" id="loginusername" placeholder="Enter your username here."><br>
+        <span class="error" id="usernameerrorlog"></span><br>
+        <label class = "label" for="password">Password:</label><br>
+        <input type="password" class = "input" name="password" id="loginpassword" placeholder="Enter your password here."><br>
+        <span class="error" id="passerrorlog"></span><br>
+        <a class="a" href="index.html">Don't have an account? Click here to register.</a><br>
+        <button type="submit" class="button" id="loginbutton">Log in</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
