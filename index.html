@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Account.css">
+
+</head>
+<body>
+    <form class="form" id="formregister">
+        <h1>Register</h1>
+        <label class = "label" for="name">Username:</label><br>
+        <input type="text" class = "input" name="name" id="username" placeholder="Enter your username here."><br>
+        <span class="error" id="usernameerror"></span><br>
+        <label class = "label" for="password">Password:</label><br>
+        <input type="password" class = "input" name="password" id="password" placeholder="Enter your password here."><br>
+        <span class="error" id="passerror"></span><br>
+        <label class = "label" for="con_pass">Confirm password:</label><br>
+        <input type="password" class = "input" name="con_pass" id="con_pass" placeholder="Confirm your password here."><br>
+        <a class="a" href="login.html">Already have an account? Click here to log in.</a><br>
+        <button type="submit" class="button" id="registerbutton">Register</button>
+        <span class="successline" id="successline"></span>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
