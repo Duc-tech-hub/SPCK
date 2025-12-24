@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#redirect{
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-bottom: 16px;
+    position: relative;
+    left: 170px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-in-out;
+    margin: 20px;
+}
+#redirect:hover {
+  background: linear-gradient(135deg, #0056b3, #004099);
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.35rem 0.7rem rgba(0,0,0,0.2);
+}
+#pay-form{
+    background-color: #F8F9FA;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 0px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-top: 10px;
+}
+label{
+    position: relative;
+    left: 130px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input{
+    width: 250px;
+    position: relative;
+    left: 130px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#output_money{
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    left: 150px;
+}
