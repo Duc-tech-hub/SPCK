@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    border: 1px solid #EFE9E3;
+    border-radius: 5px;
+}
+.Sections{
+    margin: 10px;
+    border: 2px solid #EFE9E3;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.manage{
+    display: inline-flex;
+}
+.button{
+    width: 80px;
+    height: 30px;
+    margin: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.input{
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.output{
+    border: 1px solid #EFE9E3;
+    border-radius: 5px;
+    max-width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+@media (max-width: 600px) {
+    h1{
+        font-size: 20px;
+    }
+}

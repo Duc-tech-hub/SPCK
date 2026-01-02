@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:#FFFFFF;
+}
+.container{
+    background-color: #F8F9FA;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+#redirect{
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-bottom: 16px;
+    position: relative;
+    top: 10px;
+    left: 1150px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-in-out;
+}
+#redirect:hover {
+  background: linear-gradient(135deg, #0056b3, #004099);
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.35rem 0.7rem rgba(0,0,0,0.2);
+}
