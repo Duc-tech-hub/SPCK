@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/background-form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.infocontainer{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    background-color: #EEEEEE;
+}
+.labelinfo{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputinfo{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+}
+.Button, .button1{
+    display: block;
+    margin: 30px auto 0 auto;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 12px;
+}
+
+.Button:hover, .button1:hover {
+    cursor: pointer;
+}
+.editname{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    background-color: #f8f9fa;
+}
+.label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.input.error-border{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.error{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color:red;
+}
+.successline{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:rgb(123, 183, 33);
+}
+.button1:hover{
+    cursor:pointer;
+    display: block;
+    margin: 30px auto 0 auto;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.returnb img{
+  position: fixed;
+  left:0px;
+  top:0px;
+  width: 60px;
+  height: 60px;
+}
+@media (max-width: 1024px){
+    .infocontainer{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+@media (max-width: 600px){
+    .infocontainer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .editname{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

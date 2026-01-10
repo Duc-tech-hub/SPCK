@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Control Panel</title>
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin-allow-popups">
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="../css/Adminpanel.css">
+</head>
+
+<body>
+    <h1>Welcome to Admin Control Panel</h1>
+    <div class="Sections">
+        <div class="manage">
+            <h3>Manage accounts</h3>
+            <form id="form-account"><input type="text" placeholder="🔍 Search here..." class="input"
+                    id="search-account"></form>
+            <button class="button" id="select-account">Select</button>
+            <button class="button-hide" id="enable-account">Unlock</button>
+            <button class="button-hide" id="disable-account">Lock</button>
+        </div>
+        <div class="output" id="output-box-accouts"></div>
+    </div>
+    <div class="Sections">
+        <div class="manage">
+            <h3>Manage comments</h3>
+            <input type="text" placeholder="🔍 Search here..." class="input" id="search-comment">
+            <button class="button" id="select-comment">Select</button>
+            <button class="button-hide" id="remove-comment">Remove</button>
+        </div>
+        <div class="output" id="output-box-comments"></div>
+    </div>
+    <div class="Sections">
+        <div class="manage">
+            <h3>Manage products</h3>
+            <input type="text" placeholder="🔍 Search here..." class="input">
+            <button class="button">Select</button>
+            <button class="button">Add</button>
+            <button class="button">Remove</button>
+        </div>
+    </div>
+    <script type="module" src="../js/Adminpanel-part1.js"></script>
+    <script type="module" src="../js/Adminpanel-part2.js"></script>
+</body>
+
+</html>

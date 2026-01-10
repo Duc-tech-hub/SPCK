@@ -1,0 +1,139 @@
+.pay-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.confirm-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#confirmed-sent {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+#confirmed-sent:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+#confirmed-sent:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+.note {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.confirm-container {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.pay-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+#recheck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#recheck:hover {
+    background-color: #f8f9fa;
+    border-color: #d2e3fc;
+}
+
+#recheck img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+#recheck p {
+    margin: 0;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#output_money {
+    display: block;
+    text-align: left;
+    width: fit-content;
+    margin-left: 0;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.qr-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.qr-display {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.qr-display:hover {
+    transform: scale(1.05);
+}
